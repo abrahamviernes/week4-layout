@@ -5,10 +5,10 @@ export default function Header() {
         <h1 className="text-2xl font-bold">Laurus Studio</h1>
 
         <nav className="flex gap-6 text-sm">
-          <a href="#" className="hover:text-green-200">Home</a>
-          <a href="#" className="hover:text-green-200">About</a>
-          <a href="#" className="hover:text-green-200">Projects</a>
-          <a href="#" className="hover:text-green-200">Contact</a>
+          <a href="/" className="hover:text-green-200">Home</a>
+<a href="/about" className="hover:text-green-200">About</a>
+<a href="/#projects" className="hover:text-green-200">Projects</a>
+<a href="/contact" className="hover:text-green-200">Contact</a>
         </nav>
       </div>
     </header>
